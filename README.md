@@ -10,6 +10,8 @@ The goal of the deep-learning-challenge is to create a predictive deep learning 
 ### Step 2: Compiling, Training, and Evaluating the Model
 The machine learning model used 2 hidden Relu layers with 8 and 6 neurons and a sigmoid output layer with 1 neuron as that was the conventional method utitilzed in class activities. 
 
-The target of 75% predictive accuracy was not achived. The accuracy was 0.723%, slightly lower than the 75% target.
+The target of 75% predictive accuracy was not achived. The accuracy was 0.723 or 72.3%, slightly lower than the 75% target.
 
+In order to improve the model. a hidden tanh layer containing 2 neurons were added, in which no improvements were made. Then the epoch was reduced in half from 100 to 50, still no noticeable improvements. Finally, a hidden Relu layer with another 8 neurons was added. The model did not have much improvement and was still approximately 72%. Overall the model improved from 0.723 to 0.724, resulting in a final accuracy of 72.4%.
 
+The keras model fell short of reach the 75% target at only 72% and was difficult to improve. Perhaps the use of random forest classifiers would limit the undue influence of outliers and improve the model.  
