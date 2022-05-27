@@ -5,6 +5,6 @@ The goal of the deep-learning-challenge is to create a predictive deep learning 
 ## Results
 
 ### Step 1: Preprocessing Data
-* 'IS_SUCCESSFUL' is the target of the model, while the features are 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', 'ASK_AMT'. The columns 'EIN' and 'NAME' are neither targets nor features and were dropped. 
+'IS_SUCCESSFUL' is the target of the model, while the features are 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', 'ASK_AMT'. The columns 'EIN' and 'NAME' are neither targets nor features and were dropped. 
 
 ### Step 2: Compiling, Training, and Evaluating the Model
