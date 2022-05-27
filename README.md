@@ -14,4 +14,5 @@ The target of 75% predictive accuracy was not achived. The accuracy was 0.723 or
 
 In order to improve the model. a hidden tanh layer containing 2 neurons were added, in which no improvements were made. Then the epoch was reduced in half from 100 to 50, still no noticeable improvements. Finally, a hidden Relu layer with another 8 neurons was added. The model did not have much improvement and was still approximately 72%. Overall the model improved from 0.723 to 0.724, resulting in a final accuracy of 72.4%.
 
+### Summary
 The keras model fell short of reach the 75% target at only 72% and was difficult to improve. Perhaps the use of random forest classifiers would limit the undue influence of outliers and improve the model.  
