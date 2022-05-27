@@ -8,3 +8,8 @@ The goal of the deep-learning-challenge is to create a predictive deep learning 
 'IS_SUCCESSFUL' is the target of the model, while the features are 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', 'ASK_AMT'. The columns 'EIN' and 'NAME' are neither targets nor features and were dropped. 
 
 ### Step 2: Compiling, Training, and Evaluating the Model
+The machine learning model used 2 hidden Relu layers with 8 and 6 neurons and a sigmoid output layer with 1 neuron as that was the conventional method utitilzed in class activities. 
+
+The target of 75% predictive accuracy was not achived. The accuracy was 0.723%, slightly lower than the 75% target.
+
+
